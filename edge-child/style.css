@@ -1,0 +1,187 @@
+/*
+Theme Name:Edge Child
+Theme URI: http://themefreesia.com/themes/edge
+Author: Theme Freesia
+Author URI: http://themefreesia.com
+Description: Edge is a Responsive Blogger WordPress Theme, Designed and Developed by Theme Freesia. Edge is Simple, clean, blog-focused, and designed for clarity. It is also translation ready and easily customizable with lots of options using Customizer. It consists contact us template, gallery template, widgets and sidebar. Get free support at http://themefreesia.com/support-forum/ and View demo site at http://demo.themefreesia.com/edge.
+Version: 1.0
+Text Domain: edge-child
+Template: edge
+License: GNU General Public License version 3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+
+Tags: threaded-comments, left-sidebar, right-sidebar, custom-background, custom-header, custom-menu, editor-style, sticky-post, theme-options, translation-ready, post-formats, custom-logo, footer-widgets, blog, e-commerce, holiday, news, photography, portfolio
+
+All files, unless otherwise stated, are released under the GNU General Public License
+version 3.0 (http://www.gnu.org/licenses/gpl-3.0.html)
+==================================================
+*/
+
+
+/* 18.0 Content 画像幅変更
+================================================== */
+#content {
+	padding: 0px 0 30px;
+}
+
+#primary {
+	float: left;
+	width: 100%;
+}
+
+/* 19.0 Sidebars サイドバー幅変更
+================================================== */
+#secondary {
+	float: none;
+	padding-left: 0px;
+	width: 0%;
+}
+
+/* 会社案内動画　変更
+================================================== */
+#main-visual {
+    height: 600px;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+ 
+#main-visual img {
+    z-index: 2;
+    position: absolute;
+    top: 100px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+ 
+#main-visual video {
+    margin: 0 auto;
+    z-index: 1;
+    width: 100%;
+}
+
+/* ものつくりマガジン　変更
+================================================== */
+
+.monodukuri-mag{
+    margin: 40px 0px 0px;
+}
+
+.monodukuri-mag h1{
+    text-align: center;
+}
+
+.monodukuri_mag_col {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0px;
+}
+
+.monodukuri_mag_in{
+    width: 25%;
+    padding: 1%;
+
+}
+
+.monodukuri_mag_in a{
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    color: #333;
+    height: 350px;
+}
+
+.monodukuri_mag_in img{
+    /*height: 200px;*/
+}
+
+.monodukuri_mag_in p{
+    font-size: 13px;
+    text-align: left;
+    margin: 0;
+}
+
+.monodukuri_mag_in .date{
+    margin: 30px 0px 0px;
+}
+
+.monodukuri_mag_in .title{
+    border-top: 1px dotted #ddd;
+    color: #555;
+    line-height: 25px;
+}
+
+#colophon .widget-title:after {
+    background-color: #ffae00;
+    width: 100%;
+}
+
+
+
+
+@media screen and (max-width: 1024px) {
+    .monodukuri_mag_in {
+    width: 49%;
+    padding: 1%;
+}
+
+@media screen and (max-width: 767px) {
+
+    .top-header{
+        background: #efefef;
+    }
+
+    #site-branding img{
+        width: 100px;
+    }
+
+    .monodukuri_mag_in a{
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    color: #333;
+    height: 350px;
+    }
+
+    .monodukuri_mag_in {
+    width: 100%;
+    padding: 1%;
+    }
+
+    .monodukuri_mag_in img{
+    height: auto;
+    }
+
+    .monodukuri_mag_in a{
+    width: 100%;
+    }
+
+    .monodukuri_mag_in a{
+    height: auto;
+    }
+
+    #nav_menu-2, #text-6{
+        display: none;
+    }
+
+    #media_image-4{
+        text-align: center;
+    }
+
+    #colophon .widget-title:after {
+    width: 100%;
+    }
+    
+    
+}
+
+
+
